@@ -1,4 +1,4 @@
-# ros-average-points
+# ROS Average Points
 
 This is a simple project with the aim to learn ROS. The code is written in python.
 
