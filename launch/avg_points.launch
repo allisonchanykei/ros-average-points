@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="avg_points" type="generate_points.py" name="point_generator"/>
+    <node pkg="avg_points" type="calculate_average.py" name="average_calculator"/>
+</launch>
