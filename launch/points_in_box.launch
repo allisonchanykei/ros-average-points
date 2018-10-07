@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="avg_points" type="generate_points.py" name="point_generator"/>
+    <node pkg="avg_points" type="generate_box.py" name="box_generator"/>
+    <node pkg="avg_points" type="points_in_box.py" name="points_in_box"/>
+</launch>
